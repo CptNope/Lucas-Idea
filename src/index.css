@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-numbers {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Casino Felt Gradients */
+.bg-casino-felt {
+  background: radial-gradient(circle at 50% 30%, #154c30 0%, #0b301e 60%, #061c11 100%);
+}
+
+.bg-table-border {
+  background: linear-gradient(135deg, #442a12 0%, #2b1a0b 50%, #170d06 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #ffe082 0%, #ffc107 50%, #ff8f00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1318;
+}
+::-webkit-scrollbar-thumb {
+  background: #232c37;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374659;
+}
+

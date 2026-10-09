@@ -1,0 +1,6 @@
+{
+  "name": "Grand Royale Casino Simulator",
+  "description": "A polished, responsive online casino simulator with play-money wallets, slots, blackjack, roulette, dice, strategy experiment mode, peer trading, and full admin controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
